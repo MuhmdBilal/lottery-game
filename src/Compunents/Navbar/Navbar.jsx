@@ -54,7 +54,7 @@ function Navbar({ setConnection , setUserName }) {
               </li>
               <li className="nav-item">
                 <a
-                  href="https://sepolia.etherscan.io/address/0x162cfe878e8f5b4435554d363f0a37f7a39086f9"
+                  href="https://bscscan.com/address/0x8a7219ee700cdc5b13ed5718b82d5c4c6954e36f"
                   target="_blank"
                   className="nav-link text-decoration-none  fw-bold link"
                 >
