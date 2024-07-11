@@ -13,7 +13,6 @@ function App() {
     <>
       <BrowserRouter>
       <Navbar setConnection={setConnection} setUserName={setUserName}/>
-
         <Routes>
           <Route path="/" element={<Classic connection={connection} setUserName={setUserName} userName={userName}/>} />
           <Route path="/How" element={<How />} />
