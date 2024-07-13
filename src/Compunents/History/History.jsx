@@ -31,7 +31,7 @@ function History({ historyDetails, loading }) {
                     <div className="d-flex align-items-center ">
                       <img src={profile} className="img_pro2" alt="" />
                       <div className="ms-3">
-                        <h6>Win: {items?.amount} ETH</h6>
+                        <h6>Win: {items?.amount} BNB</h6>
                       </div>
                     </div>
                     <div className="d-flex ">
@@ -55,7 +55,7 @@ function History({ historyDetails, loading }) {
                               0,
                               6
                             )}...${user.runnerUpAddress.slice(-6)}`}</h6>
-                            <h6 className="pb-2">{user?.runerUpAmmount.toFixed(5)} ETH</h6>
+                            <h6 className="pb-2">{user?.runerUpAmmount.toFixed(5)} BNB</h6>
                           </div>
                         );
                       })}

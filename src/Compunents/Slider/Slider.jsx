@@ -50,7 +50,7 @@ export default function Slider() {
           <div className=" bg_ha">
             <div className="card-body-border">
               <img src={four} alt="" class="img-fluid"/>
-              <p className="mt-3">Make Bet in ETH</p>
+              <p className="mt-3">Make Bet in BNB</p>
             </div>
           </div>
         </SwiperSlide>
@@ -80,7 +80,7 @@ export default function Slider() {
               <img src={one} alt="" />
 
               <p className="mt-3">
-                You automatically receive ETH on your wallet
+                You automatically receive BNB on your wallet
               </p>
             </div>
           </div>

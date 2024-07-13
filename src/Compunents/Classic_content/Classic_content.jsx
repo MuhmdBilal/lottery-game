@@ -284,7 +284,7 @@ function Classic_content({
             <div className="d-flex justify-content-center mb-3">
               <div className="baxk_lable d-flex justify-content-around">
                 <span>Total</span>
-                <span>{rewardPool} ETH</span>
+                <span>{rewardPool} BNB</span>
               </div>
             </div>
             <div className="d-flex gap-2 justify-content-center">
@@ -304,7 +304,7 @@ function Classic_content({
             <div className="col-lg-6 col-12 p-2 ps-4">
               {/* <h5 className="">You have deposited - 0 (out of 10) items</h5> */}
               <p className="p-0 m-0 fw_bold">
-                Minimum buy ticket 1 price, {getEntranceFe.toFixed(5)} ETH
+                Minimum buy ticket 1 price, {getEntranceFe.toFixed(5)} BNB
               </p>
               <p className="p-0 m-0 fw_bold">
                 Buy more tickets makes more chances to win.
@@ -373,7 +373,7 @@ function Classic_content({
                   <div className="poligon  d-flex align-items-center ">
                     <h6 className="eth_main text-center ">
                       {items?.amount.toFixed(5)}
-                      <br /> ETH
+                      <br /> BNB
                     </h6>
                   </div>
                 </div>

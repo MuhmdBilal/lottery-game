@@ -32,18 +32,18 @@ function How() {
           <span className="mt-2">
             <b>A3:</b> Once your wallet is connected, you can buy lottery
             tickets by selecting the number of tickets you want to purchase and
-            sending the required amount of ETH. The ticket price is displayed on
+            sending the required amount of BNB. The ticket price is displayed on
             the site, and you can use the "Buy Tickets" button to complete your
             purchase.
           </span>
         </div>
         <div className="d-flex flex-column mt-4">
           <span style={{fontWeight: "700"}}>
-            <b>Q4:</b> How is the ETH/USD price retrieved?
+            <b>Q4:</b> How is the BNB/USD price retrieved?
           </span>
           <span className="mt-2">
-            <b>A4:</b> The ETH/USD price is retrieved from an oracle
-            (AggregatorV3Interface) to ensure the ticket price in ETH is
+            <b>A4:</b> The BNB/USD price is retrieved from an oracle
+            (AggregatorV3Interface) to ensure the ticket price in BNB is
             accurate and up to date.
           </span>
         </div>
@@ -87,8 +87,8 @@ function How() {
           </span>
           <span className="mt-2">
             <b>A8:</b> There is no strict limit to the number of tickets you can
-            buy per round, but each ticket requires the specified amount of ETH.
-            You can buy as many tickets as you wish, subject to your ETH
+            buy per round, but each ticket requires the specified amount of BNB.
+            You can buy as many tickets as you wish, subject to your BNB
             balance.
           </span>
         </div>

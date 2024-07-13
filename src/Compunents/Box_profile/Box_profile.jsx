@@ -1,7 +1,7 @@
 import React from "react";
 import profile from "../../assets/d6e931799ee14d92989c96f6f7989a8175df65c6_full.jpg";
 import { TbCoinTakaFilled } from "react-icons/tb";
-import eth_logo from "../../assets/Ethereum_logo_translucent.svg";
+import eth_logo from "../../assets/Ethereum_logo_translucent.png";
 
 function Box_profile({ winer, winerDetails, backgroundColor }) {
   const demiAddress = "0x0000000000000000000000000000000000000000";
@@ -31,7 +31,7 @@ function Box_profile({ winer, winerDetails, backgroundColor }) {
               <div className="align-items-center d-flex gap-1 box-width">
                 <img src={eth_logo} width={20} />
               </div>
-              <span>{(winerDetails && winerDetails.amount) || 0.0} ETH</span>
+              <span>{(winerDetails && winerDetails.amount) || 0.0} BNB</span>
             </div>
           </div>
         </div>

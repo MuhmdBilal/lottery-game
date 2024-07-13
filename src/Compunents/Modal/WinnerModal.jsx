@@ -1,7 +1,7 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal";
 import profile from "../../assets/d6e931799ee14d92989c96f6f7989a8175df65c6_full.jpg";
-import eth_logo from "../../assets/Ethereum_logo_translucent.svg";
+import eth_logo from "../../assets/Ethereum_logo_translucent.png";
 import { TbCoinTakaFilled } from "react-icons/tb";
 const WinnerModal = ({ setModalShow, modalShow, winerDetails }) => {
   return (
@@ -44,7 +44,7 @@ const WinnerModal = ({ setModalShow, modalShow, winerDetails }) => {
                       <img src={eth_logo} width={20} />
                     </div>
                     <span>
-                      {(winerDetails && winerDetails.amount) || 0.0} ETH
+                      {(winerDetails && winerDetails.amount) || 0.0} BNB
                     </span>
                   </div>
                 </div>
@@ -68,7 +68,7 @@ const WinnerModal = ({ setModalShow, modalShow, winerDetails }) => {
                     />
                     
                   </span>
-                  <span>{winerDetails && winerDetails.amount} ETH</span>
+                  <span>{winerDetails && winerDetails.amount} BNB</span>
                 </div>
               </div>
             </div> */}

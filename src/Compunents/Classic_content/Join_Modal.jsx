@@ -51,7 +51,7 @@ const JoinModal = ({
                           ? bnbPrice.toWeiAmount.toFixed(8)
                           : 0}
                       </spam>{" "}
-                      <span className="eth-price">ETH</span>
+                      <span className="eth-price">BNB</span>
                     </div>
                   </div>
                   <div className="col-md-6">
